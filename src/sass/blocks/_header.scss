@@ -1,0 +1,46 @@
+
+.header {
+    //padding: 26px 120px 16px 120px;
+    margin: 0 120px;
+    margin-top: 26px;
+    margin-bottom: 18px;
+    height: 62px;
+    max-width: 1200px;
+    display: flex;
+    //border: 1px solid grey;
+    &__logo {
+        width: 177px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        margin-right: 485px;
+        &-1 {
+            margin: 8px 11px 8px 0;
+        }
+        &-2 {
+            margin: 12.6px 0 10.4px 0;
+        }
+    }
+    &__contacts {
+        padding: 12px 0 20px 0;
+        width: 535px;
+        
+        &-list {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            li {
+                margin: 0 20px;
+            }
+            a {
+                color: #292F36;
+                font-size: 19px;
+                line-height: 30px;
+                &:hover {
+                    color: #CDA274;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

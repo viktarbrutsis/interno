@@ -1,0 +1,49 @@
+
+.descr {
+    padding: 195px 720px 250px 120px;
+    height: 830px;
+    background: url(../img/main_bg.jpg) no-repeat 57%/cover;
+    margin: 0 auto;
+    h1 {
+        display: block;
+        width: 595px;
+        font-size: 80px;
+        line-height: 96px;
+        letter-spacing: 0.22px;
+        color: #292F36;     
+    }
+    p {
+        display: block;
+        width: 575px;
+        margin-top: 19px;
+        margin-bottom: 35px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+    }
+    .descr__button {
+        width: 210px;
+        height: 71px;
+        background: black;
+        border-radius: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 34px;
+        padding-right: 16px;
+        .button {
+            background: none;
+        }
+        .btn {
+            border: none;
+            background: none;
+            color: white;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: 0.72px;
+            }
+    }
+}
